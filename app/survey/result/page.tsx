@@ -25,7 +25,7 @@ export default async function Result() {
   )
 
   return (
-    <div className="flex h-screen flex-col pb-4 pt-8">
+    <div className="flex flex-col pb-4 pt-8 supports-[height:100cqh]:h-[100cqh] supports-[height:100svh]:h-[100svh]">
       <h2 className="text-center text-xl font-bold tracking-tight">
         Результаты теста.
       </h2>
