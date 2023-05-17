@@ -32,7 +32,6 @@ export default async function Result() {
       <p className="text-center text-lg leading-8 text-gray-700">
         Правильных ответов {correctCount} из {questions.length}
       </p>
-      <div className="mt-4 flex flex-col gap-8 overflow-auto px-2 lg:px-8">
         {questions.map(
           ({
             question,
@@ -54,6 +53,7 @@ export default async function Result() {
                   </p>
                   <p className="text-xs text-gray-500">Категория: {category}</p>
                 </div>
+      <div className="mt-4 flex flex-col gap-8 overflow-auto px-4 lg:px-8">
                 <div
                   className="border-x border-slate-200  px-6 py-4 data-[is-correct=true]:rounded-b-md data-[is-correct=false]:border-y-0 data-[is-correct=true]:border-b"
                   data-is-correct={correct_answer === selectedAnswer}

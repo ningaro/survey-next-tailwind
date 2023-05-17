@@ -22,7 +22,7 @@ export default function Home() {
           </radialGradient>
         </defs>
       </svg>
-      <div className="text-center">
+      <div className="px-2 text-center">
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
           Рандомный тест.
         </h2>

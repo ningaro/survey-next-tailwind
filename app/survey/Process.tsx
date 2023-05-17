@@ -29,7 +29,7 @@ export default function Process({ data: code }: ProcessProps) {
   if (questions.length < 1) return <>Загрузка</>
 
   return (
-    <div className="flex h-full flex-col items-center pb-4 pt-8">
+    <div className="flex h-full flex-col items-center px-2 pb-4 pt-8">
       <Title />
       <Answers />
       <Submit />
