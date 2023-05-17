@@ -6,3 +6,9 @@ export interface IQuestion {
   correct_answer: string
   incorrect_answers: string[]
 }
+
+export enum difficultyNum {
+  easy = 1,
+  medium,
+  hard,
+}
